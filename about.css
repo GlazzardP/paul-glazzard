@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.grey {
+  color: #474747;
+}
+
+body {
+  background-color: #fcf9f9;
+  text-align: center;
+}
+
+body header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 50px;
+}
+
+body header nav h1 {
+  font-weight: 900;
+  font-size: 40px;
+}
+
+body header nav a {
+  color: #696666;
+}
+
+body header nav a:link {
+  text-decoration: none;
+}
+
+body header nav a:visited {
+  text-decoration: none;
+}
+
+.aboutPage {
+  margin: 0 auto;
+  width: 80%;
+  padding-bottom: 100px;
+}
+
+.aboutPage p {
+  text-align: left;
+}
+
+.aboutPage h2 {
+  text-align: left;
+  padding: 20px 0;
+}
+
+.aboutPage section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+}
+
+.aboutPage section div {
+  margin: 0 auto;
+  width: 200px;
+  padding: 10px;
+  -webkit-box-shadow: #b8b5b5 0 0 20px 5px;
+          box-shadow: #b8b5b5 0 0 20px 5px;
+}
+
+.aboutPage section div img {
+  height: 50px;
+}
+
+.aboutPage section div h2,
+.aboutPage section div p {
+  text-align: center;
+}
+
+footer .footer-links a {
+  text-decoration: none;
+}
+
+footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer div h2 {
+  margin: 10px;
+  padding: 0;
+}
+
+footer div img {
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+}
+
+footer div img:hover {
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 1024px) {
+  .aboutPage {
+    margin: 0 auto;
+    width: 80%;
+  }
+  .aboutPage p {
+    text-align: left;
+  }
+  .aboutPage h2 {
+    text-align: left;
+  }
+  .aboutPage section {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto auto;
+        grid-template-columns: auto auto auto;
+  }
+  .aboutPage section div {
+    margin: 0 auto;
+    width: 200px;
+  }
+  .aboutPage section div h2,
+  .aboutPage section div p {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=about.css.map */
