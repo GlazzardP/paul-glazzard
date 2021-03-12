@@ -122,33 +122,43 @@ footer {
 
 // ABOUT
 @media only screen and (min-width: 1024px) {
-  .aboutPage {
-    margin: 0 auto;
-    width: 80%;
-    // border: solid blue 2px;
-    // background-color: red;
-
-    p {
-      text-align: left;
-      // padding: 10px 0;
+  body {
+    text-align: center;
+    header {
+      nav {
+        h1 {
+          font-size: 40px;
+        }
+      }
     }
+    .aboutPage {
+      margin: 0 auto;
+      width: 80%;
+      // border: solid blue 2px;
+      // background-color: red;
 
-    h2 {
-      text-align: left;
-      // padding-bottom: 20px;
-    }
+      p {
+        text-align: left;
+        // padding: 10px 0;
+      }
 
-    section {
-      display: grid;
-      grid-template-columns: auto auto auto;
+      h2 {
+        text-align: left;
+        // padding-bottom: 20px;
+      }
 
-      div {
-        margin: 0 auto;
-        width: 200px;
+      section {
+        display: grid;
+        grid-template-columns: auto auto auto;
 
-        h2,
-        p {
-          text-align: center;
+        div {
+          margin: 0 auto;
+          width: 200px;
+
+          h2,
+          p {
+            text-align: center;
+          }
         }
       }
     }

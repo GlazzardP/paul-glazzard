@@ -122,28 +122,34 @@ footer div img:hover {
 }
 
 @media only screen and (min-width: 1024px) {
-  .aboutPage {
+  body {
+    text-align: center;
+  }
+  body header nav h1 {
+    font-size: 40px;
+  }
+  body .aboutPage {
     margin: 0 auto;
     width: 80%;
   }
-  .aboutPage p {
+  body .aboutPage p {
     text-align: left;
   }
-  .aboutPage h2 {
+  body .aboutPage h2 {
     text-align: left;
   }
-  .aboutPage section {
+  body .aboutPage section {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: auto auto auto;
         grid-template-columns: auto auto auto;
   }
-  .aboutPage section div {
+  body .aboutPage section div {
     margin: 0 auto;
     width: 200px;
   }
-  .aboutPage section div h2,
-  .aboutPage section div p {
+  body .aboutPage section div h2,
+  body .aboutPage section div p {
     text-align: center;
   }
 }
